@@ -9,7 +9,7 @@
 @import Foundation;
 
 #define DegreeToRadian(degree) (degree/57.2957795)
-#define RadianToDegree(radian) (radian*57.2957795f)
+#define RadianToDegree(radian) (radian*57.2957795)
 
 typedef void (^ CompletionBlock)();
 typedef void (^ DataCompletionBlock)(id data);
